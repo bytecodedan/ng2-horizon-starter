@@ -1,0 +1,7 @@
+rethinkdb_data/
+**/*.log
+.#*
+**/*-key.pem
+**/*-cert.pem
+/dist/node_modules/
+**/.DS_Store
