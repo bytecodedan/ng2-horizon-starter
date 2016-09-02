@@ -1,8 +1,9 @@
-import {Component, OnInit} from '@angular/core';
-import {ChatService} from './chat.service'
+import { Component, OnInit } from '@angular/core'
+
+import { ChatService } from './chat.service'
 
 @Component({
-  selector: '<chat></chat>',
+  selector: 'chat',
   styles: [`
         ul {
             list-style-type: none;
@@ -41,8 +42,8 @@ import {ChatService} from './chat.service'
         }
    `],
   template: `<h1>Messages</h1>
-    <form>
-        <input [(ngModel)]="newMessage">
+    <form autocomplete="off" novalidate>
+        <input [(ngModel)]="newMessage" name="newMessage">
         <button type="submit" (click)="addMessage(newMessage)">Send</button>
     </form>
     <ul>
@@ -53,21 +54,24 @@ import {ChatService} from './chat.service'
             {{message.datetime}}
           </span>
         </li>
-    </ul>`,
+    </ul>
+    <h3>Count: {{count}}</h3>`,
   providers: [ChatService]
 })
 
 export class ChatComponent implements OnInit {
   newMessage = '';
   messages = [];
+  count = 0;
 
   constructor(private _chatService: ChatService) {  }
 
   ngOnInit() {
     this.getChats()
+    this.getCount()
   }
 
-  getChats = function() {
+  getChats() {
     this._chatService
       .getChats()
       .subscribe((newMessages) => {
@@ -75,7 +79,7 @@ export class ChatComponent implements OnInit {
       });
   }
 
-  addMessage = function(text) {
+  addMessage(text) {
     if (text) {
       this._chatService
         .sendChat(text)
@@ -84,4 +88,14 @@ export class ChatComponent implements OnInit {
     }
   }
 
+  getCount() {
+    this._chatService
+      .getCount()
+      .subscribe((data) => {
+        // this.count = count;
+        this.count = data.map(x => 1).reduce( (x,y) => x + y, 0 )
+      });
+      
+  }
+ 
 }
