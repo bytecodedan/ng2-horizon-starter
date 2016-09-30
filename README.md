@@ -24,4 +24,5 @@ $ npm run dev-reload # starts server in dev mode and launches webpack-dev-server
 
 ### Credits and inspiration
 * [lovli.js](https://github.com/flipace/lovli.js)
-* 
+* [rethinkdb-horizon-angular2](https://github.com/yagoferrer/rethinkdb-horizon-angular2)
+* [angular-on-horizon](https://github.com/otodockal/angular-on-horizon)
