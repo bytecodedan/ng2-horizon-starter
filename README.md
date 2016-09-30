@@ -1,6 +1,8 @@
 # ng2-horizon-starter
 A starter project for Angular 2 + Webpack + Horizon + RethinkDB
 
+The app itself is essentially the same chat app that Horizon provides in its examples projects.
+
 ### Installation
 * If you do not have RethinkDB, please follow instructions here, https://rethinkdb.com/docs/install/
 * If you do not have Horizon, please follow instructions here, http://horizon.io/install/
@@ -21,6 +23,7 @@ $ npm run dev-reload # starts server in dev mode and launches webpack-dev-server
 ```
 
 ### Credits and inspiration
+* [react-chat-app](https://github.com/rethinkdb/horizon/tree/next/examples/react-chat-app)
 * [lovli.js](https://github.com/flipace/lovli.js)
 * [rethinkdb-horizon-angular2](https://github.com/yagoferrer/rethinkdb-horizon-angular2)
 * [angular-on-horizon](https://github.com/otodockal/angular-on-horizon)
