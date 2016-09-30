@@ -27,6 +27,8 @@ const messages = [
   `Chuck Norris will never have a heart attack. His heart isn't nearly foolish enough to attack him.`
 ];
 
+// http://www.chucknorrisfacts.com/chuck-norris-top-50-facts
+
 const avatar_url = `http://api.adorable.io/avatars/50/${new Date().getMilliseconds()}.png`;
 
 const createRandomMessage = () => {
