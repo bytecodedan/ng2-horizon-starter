@@ -7,8 +7,8 @@
     "build": "webpack --progress",
     "build-prod": "webpack -p --progress",
     "dev": "babel-node src/server/entry.server",
-    "postinstall": "typings install",
-    "serve": "concurrently \"npm run dev\" \"webpack-dev-server --port 8282 --inline --progress\""
+    "dev-reload": "concurrently \"npm run dev\" \"webpack-dev-server --port 8282 --inline --progress\"",
+    "postinstall": "typings install"    
   },
   "keywords": [],
   "author": "",
