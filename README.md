@@ -18,9 +18,8 @@ $ npm run postinstall # install TypeScript definitions
 ``` bash
 $ npm run build # manually build the client 
 $ npm run build-prod # manually build the client for production 
-
-$ npm run serve # starts app in dev mode
-
+$ npm run dev # start server in dev mode (localhost:8181)
+$ npm run serve # simultaniously starts server in dev mode and launches webpack-dev-server (live reload on localhost:8282)
 ```
 
 ### Credits and inspiration
