@@ -1,8 +1,6 @@
 # ng2-horizon-starter
 A starter project for Angular 2 + Webpack + Horizon + RethinkDB
 
-## W.I.P.
-
 ### Installation
 * If you do not have RethinkDB, please follow instructions here, https://rethinkdb.com/docs/install/
 * If you do not have Horizon, please follow instructions here, http://horizon.io/install/
