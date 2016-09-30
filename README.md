@@ -1,7 +1,7 @@
 # ng2-horizon-starter
 A starter project for Angular 2 + Webpack + Horizon + RethinkDB
 
-The app itself is essentially the same chat app that Horizon provides in its examples projects.
+The app itself is essentially the same chat app found in the official Horizon [example projects](https://github.com/rethinkdb/horizon/tree/next/examples).
 
 ### Installation
 * If you do not have RethinkDB, please follow instructions here, https://rethinkdb.com/docs/install/
