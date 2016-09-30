@@ -16,6 +16,7 @@ import { ChatService } from './chat.service'
         }
         .message img {
             vertical-align:middle;
+            border-radius: 25%;
         }
         .message .text {
             vertical-align:middle;
@@ -54,8 +55,7 @@ import { ChatService } from './chat.service'
             {{message.datetime}}
           </span>
         </li>
-    </ul>
-    <h3>Count: {{count}}</h3>`,
+    </ul>`,
   providers: [ChatService]
 })
 
