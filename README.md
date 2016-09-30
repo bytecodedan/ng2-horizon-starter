@@ -4,24 +4,25 @@ A starter project for Angular 2 + Webpack + Horizon + RethinkDB
 ## W.I.P.
 
 ### Installation
-* If you do not have RethinkDB, please follow instruction here, https://rethinkdb.com/docs/install/
-* If you do not have Horizon, please follow instruction here, http://horizon.io/install/
+* If you do not have RethinkDB, please follow instructions here, https://rethinkdb.com/docs/install/
+* If you do not have Horizon, please follow instructions here, http://horizon.io/install/
 
 ``` bash
 $ git clone https://github.com/bytecodedan/ng2-horizon-starter.git
 $ cd ng2-horizon-starter
-$ npm i
-$ npm run postinstall 
+$ npm i # install Node dependecies
+$ npm run postinstall # install TypeScript definitions
 ```
-### Installation
+
+### Run
 ``` bash
+$ npm run build # manually build the client 
+$ npm run build-prod # manually build the client for production 
+
 $ npm run serve # starts app in dev mode
 
 ```
 
-W.I.P.
-
-
-Credits and inspiration:
+### Credits and inspiration
 * [lovli.js](https://github.com/flipace/lovli.js)
 * 
