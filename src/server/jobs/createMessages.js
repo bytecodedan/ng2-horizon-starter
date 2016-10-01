@@ -17,14 +17,14 @@ const messages = [
   'Wash the dishes.',
   'Connect horizon-react with redux.',
   'Eat some ice cream!',
-  `There used to be a street named after Chuck Norris, but it was changed because nobody crosses Chuck Norris and lives.`,
+  // `There used to be a street named after Chuck Norris, but it was changed because nobody crosses Chuck Norris and lives.`,
   `Chuck Norris has already been to Mars; that's why there are no signs of life.`,
   `Chuck Norris counted to infinity - twice.`,
   `Chuck Norris is the reason why Waldo is hiding.`,
   `Death once had a near-Chuck Norris experience`,
-  `Chuck Norris and Superman once fought each other on a bet. The loser had to start wearing his underwear on the outside of his pants.`,
-  `Chuck Norris doesn't flush the toilet, he scares the sh*t out of it.`,
-  `Chuck Norris will never have a heart attack. His heart isn't nearly foolish enough to attack him.`
+  // `Chuck Norris and Superman once fought each other on a bet. The loser had to start wearing his underwear on the outside of his pants.`,
+  `Chuck Norris doesn't flush the toilet, he scares the sh*t out of it.`
+  // `Chuck Norris will never have a heart attack. His heart isn't nearly foolish enough to attack him.`
 ];
 
 // http://www.chucknorrisfacts.com/chuck-norris-top-50-facts

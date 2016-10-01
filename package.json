@@ -1,4 +1,4 @@
-{ 
+{
   "name": "angular2-starter",
   "version": "1.0.0",
   "description": "",
@@ -8,7 +8,7 @@
     "build-prod": "webpack -p --progress",
     "dev": "babel-node src/server/entry.server",
     "dev-reload": "concurrently \"npm run dev\" \"webpack-dev-server --port 8282 --inline --progress\"",
-    "postinstall": "typings install"    
+    "postinstall": "typings install"
   },
   "keywords": [],
   "author": "",
@@ -28,8 +28,8 @@
     "later": "^1.2.0",
     "reflect-metadata": "^0.1.8",
     "rethinkdbdash": "^2.3.23",
-    "rxjs": "^5.0.0-beta.11",
-    "zone.js": "^0.6.17"
+    "rxjs": "^5.0.0-beta.12",
+    "zone.js": "^0.6.25"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",

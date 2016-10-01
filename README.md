@@ -22,7 +22,7 @@ $ npm run dev # start server in dev mode (localhost:8181)
 $ npm run dev-reload # starts server in dev mode and launches webpack-dev-server (live reload on localhost:8282)
 ```
 
-### Credits and inspiration
+### Credits and Inspiration
 * [react-chat-app](https://github.com/rethinkdb/horizon/tree/next/examples/react-chat-app)
 * [lovli.js](https://github.com/flipace/lovli.js)
 * [rethinkdb-horizon-angular2](https://github.com/yagoferrer/rethinkdb-horizon-angular2)
