@@ -16,6 +16,7 @@ import { ChatService } from './chat.service'
         }
         .message img {
             vertical-align:middle;
+            border-radius: 25%;
         }
         .message .text {
             vertical-align:middle;
@@ -41,11 +42,8 @@ import { ChatService } from './chat.service'
             height: 50px;
         }
    `],
-  template: `<h1>Messages</h1>
-    <form autocomplete="off" novalidate>
-        <input [(ngModel)]="newMessage" name="newMessage">
-        <button type="submit" (click)="addMessage(newMessage)">Send</button>
-    </form>
+  template: `
+    <h1>Messages</h1>    
     <ul>
         <li *ngFor="let message of messages; let i = index" class="message">
         <img height="50px" width="50px" src="{{message.url}}" />
@@ -55,7 +53,11 @@ import { ChatService } from './chat.service'
           </span>
         </li>
     </ul>
-    <h3>Count: {{count}}</h3>`,
+    <form autocomplete="off" novalidate>
+        <input [(ngModel)]="newMessage" name="newMessage">
+        <button type="submit" (click)="addMessage(newMessage)">Send</button>
+    </form>
+    `,
   providers: [ChatService]
 })
 
